@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+
 import BlogPost from './BlogPost.js'
 import ColorBox from './ColorBox.js'
+
+
 
 class App extends Component {
   
@@ -14,6 +17,8 @@ class App extends Component {
           <div id="seperator"></div>
           <div className="wrapper">
             <ColorBox opacity={1} />
+            return <div>{this.props.articleText}</div>;
+
           </div>
       </div>
     )
